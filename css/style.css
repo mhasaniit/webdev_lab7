@@ -22,12 +22,13 @@ h1 {
   color: #58a6ff;
   font-size: 2.5rem;
   margin-bottom: 10px;
+  font-weight: 800;
 }
 
 .subtitle {
   text-align: center;
   font-style: italic;
-  font-weight: 300;
+  font-weight: bold; 
   color: #8b949e;
   font-size: 1rem;
   display: block;
@@ -55,16 +56,18 @@ h1 {
   color: #58a6ff;
 }
 
-#planets td {
-  padding: 10px;
-  text-align: center;
-}
-
 .row-header {
   font-weight: bold;
   text-align: left !important;
   width: 170px;
-  color: #58a6ff;
+  color: #ffffff;      
+  background-color: #1c2128; 
+  border-right: 2px solid #58a6ff; 
+}
+
+#planets td {
+  padding: 10px;
+  text-align: center;
 }
 
 footer {
@@ -86,4 +89,8 @@ footer a {
 footer a:hover {
   text-decoration: underline;
   color: #58a6ff;
+}
+
+#planets tr:hover {
+  background-color: #1f242c;
 }
