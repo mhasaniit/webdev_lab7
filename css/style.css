@@ -1,11 +1,9 @@
 td, th {
   border: 1px solid #444;
 }
-
 * {
   box-sizing: border-box;
 }
-
 body {
   background-color: #0b0e14;
   color: #ffffff;
@@ -13,28 +11,24 @@ body {
   margin: 0;
   padding: 20px;
 }
-
 header, h1 {
   text-align: center;
 }
-
 h1 {
   color: #58a6ff;
   font-size: 2.5rem;
   margin-bottom: 10px;
   font-weight: 800;
 }
-
 .subtitle {
-  text-align: center;
+  text-align: center !important;
   font-style: italic;
-  font-weight: bold; 
+  font-weight: 900 !important; 
   color: #8b949e;
   font-size: 1rem;
   display: block;
   margin: 0 auto 30px auto;
 }
-
 #planets {
   width: 90%;
   margin: 0 auto;
@@ -42,40 +36,34 @@ h1 {
   background-color: #161b22;
   font-size: 0.9rem;
 }
-
 .planet-thumb {
   width: 140px;
   height: auto;
   display: block;
   margin: 8px auto;
 }
-
 #planets th {
   background-color: #21262d;
   padding: 12px;
   color: #58a6ff;
 }
-
 .row-header {
   font-weight: bold;
   text-align: left !important;
   width: 170px;
-  color: #ffffff;      
-  background-color: #1c2128; 
-  border-right: 2px solid #58a6ff; 
+  color: #ffcc00 !important; 
+  background-color: #1c2128;
+  border-right: 2px solid #444;
 }
-
 #planets td {
   padding: 10px;
   text-align: center;
 }
-
 footer {
   text-align: center;
   margin-top: 40px;
   padding-bottom: 40px;
 }
-
 footer p, 
 footer .signature, 
 footer a {
@@ -85,12 +73,7 @@ footer a {
   color: #ffffff;
   text-decoration: none;
 }
-
 footer a:hover {
   text-decoration: underline;
   color: #58a6ff;
-}
-
-#planets tr:hover {
-  background-color: #1f242c;
 }
